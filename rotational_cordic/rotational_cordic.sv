@@ -50,7 +50,7 @@ logic r_data_out[stages];
 
 assign r_x[0] = {x[15], x};
 assign r_y[0] = {y[15], y};
-assign r_theta[0] = {theta[15], theta};
+assign r_theta[0] = theta;
 assign r_data_out[0] = start;
 
 // Output from calculation stages
